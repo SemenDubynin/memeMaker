@@ -53,11 +53,14 @@
                                             <segment title="First"/>
                                             <segment title="Second"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="bottomSegmentValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="8rV-aA-0eJ"/>
+                                        </connections>
                                     </segmentedControl>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="qge-3b-63S" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jIv-kL-enB"/>
                             <constraint firstItem="qge-3b-63S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oJM-dl-dLy"/>
