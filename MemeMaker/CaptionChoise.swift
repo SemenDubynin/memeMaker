@@ -10,5 +10,5 @@ import Foundation
 struct CaptionOption {
     let emoji: String
     let text: String
-    
+    let imageName: String
 }

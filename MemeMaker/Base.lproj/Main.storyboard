@@ -34,7 +34,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_022555599" translatesAutoresizingMaskIntoConstraints="NO" id="uY7-fL-bhc">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uY7-fL-bhc">
                                         <rect key="frame" x="0.0" y="91.333333333333343" width="250" height="250.00000000000003"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="250" id="SYw-Bq-7Qc"/>
@@ -70,6 +70,7 @@
                     <connections>
                         <outlet property="bottomCaptionSegmentControl" destination="DP6-wU-rZR" id="gFz-3a-eby"/>
                         <outlet property="bottomLabel" destination="Ghu-Np-uTC" id="zjy-ee-F7j"/>
+                        <outlet property="mainImageView" destination="uY7-fL-bhc" id="siL-do-Blx"/>
                         <outlet property="topCaptionSegmentControl" destination="fxQ-rd-QnM" id="2W2-D6-ZC5"/>
                         <outlet property="topLabel" destination="BtL-UY-FMk" id="xOa-NG-YwI"/>
                     </connections>
@@ -79,7 +80,4 @@
             <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="IMG_022555599" width="1280" height="960"/>
-    </resources>
 </document>
