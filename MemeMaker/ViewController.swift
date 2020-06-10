@@ -29,9 +29,9 @@ class ViewController: UIViewController {
 
     func configureTopSegmentControl() {
         topCaptionSegmentControl.removeAllSegments()
-        let optionOne = CaptionOption(emoji: "🕶", text: "You know what's cool?", imageName: "Coffe")
-        let optionTwo = CaptionOption(emoji: "💥", text: "You know what makes me mad?", imageName: "Abhz")
-        let optionThree = CaptionOption(emoji: "💕", text: "You know what I love?", imageName: "Raven")
+        let optionOne = CaptionOption(emoji: "☕️", text: "You know what's cool?", imageName: "coffe")
+        let optionTwo = CaptionOption(emoji: "💥", text: "You know what makes me mad?", imageName: "explosion")
+        let optionThree = CaptionOption(emoji: "🦅", text: "You know what I love?", imageName: "Raven")
         topChoices = [optionOne, optionTwo, optionThree]
         
         for choice in topChoices {
@@ -42,9 +42,9 @@ class ViewController: UIViewController {
     }
     func configureBottomSegmentControl() {
         bottomCaptionSegmentControl.removeAllSegments()
-        let optionOne = CaptionOption(emoji: "😺", text: "Cats wearing hats", imageName: "Argon")
-        let optionTwo = CaptionOption(emoji: "🐕", text: "Dogs carrying logs", imageName: "Hydrogen")
-        let optionThree = CaptionOption(emoji: "🐒", text: "Monkeys being funky", imageName: "Silver")
+        let optionOne = CaptionOption(emoji: "😺", text: "Cats wearing hats", imageName: "cat")
+        let optionTwo = CaptionOption(emoji: "🐕", text: "Dogs carrying logs", imageName: "dog")
+        let optionThree = CaptionOption(emoji: "🐒", text: "Monkeys being funky", imageName: "monkey")
         bottomChoices = [optionOne, optionTwo, optionThree]
         
         for choice in bottomChoices {
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         bottomCaptionSegmentControl.selectedSegmentIndex = 0
         topLabel.text = topChoices.first?.text
         bottomLabel.text = bottomChoices.first?.text
-        mainImageView.image = UIImage(named: "Start")
+        mainImageView.image = UIImage(named: "eagle")
         
     }
 
